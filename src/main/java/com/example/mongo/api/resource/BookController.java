@@ -34,7 +34,7 @@ public class BookController {
 	public String save() {
 		String line;
 		try {
-			FileReader dosya = new FileReader("C:\\Users\\Omer KOCAK\\Desktop\\Books.csv");
+			FileReader dosya = new FileReader("ADD-YOUR-DATASET-PATH-HERE"); //first column is bookname next column is author name
 			BufferedReader oku = new BufferedReader(dosya);
 			line = oku.readLine();
 			while (line != null) {
